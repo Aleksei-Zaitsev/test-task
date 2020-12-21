@@ -1,0 +1,129 @@
+@media screen and (max-width: 1130px) {
+    .number {
+        margin-left: 100px;
+    }
+    .header_top, .catagory_name_block, .main_block {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing:border-box;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main_block {
+        margin-bottom: 40px;
+    }
+    .header_top {
+        flex-wrap: wrap;
+    }
+    .number {
+        order: 3;
+        width: 51%;
+        text-align: center;
+        margin-left: 0;
+        text-align: center;
+    }
+    .email {
+        margin-left: 0;
+        order: 4;
+        width: 49%;
+    }
+    .header_item {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .header_top {
+        justify-content: center;
+    }
+    .header_bottom {
+        padding-bottom: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } 
+    .ask_question {
+        margin-right: 10px;
+    }
+    .search_input {
+        margin-top: 15px;
+        order: 3;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .contact_form_container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .contact_form_container input {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .contact_form_container textarea {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact_title {
+        padding-bottom: 15px;
+    }
+    .contact_form_container button {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .search_input input {
+        width: 80%;
+        margin-left: 13%;
+    }
+} 
+
+@media screen and (max-width: 475px) {
+    .menu_btn {
+        margin-right: 0;
+    }
+    .header_block {
+        padding-top: 15px;
+    }
+    .presentation {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .email {
+        width: 100%;
+    }
+    .number {
+        width: 100%;
+    }
+    .header_item {
+        margin-top: 15px;
+    }
+    .contact_form_container input {
+        width: 95%;
+    }
+    .contact_form_container button {
+        width: 95%;
+    }
+    .contact_form_container textarea {
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .main_block {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .ask_question svg {
+        margin-right: 10px;
+    }
+}
