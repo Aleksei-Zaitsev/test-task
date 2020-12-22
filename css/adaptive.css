@@ -7,9 +7,22 @@
         padding-right: 20px;
         box-sizing:border-box;
     }
+    .ask_question svg {
+        margin-right: 15px;
+        padding-left: 15px;
+    }
+    .ask_question {
+        padding-right: 15px;
+    }
 }
 
 @media screen and (max-width: 900px) {
+    .menu_btn {
+        height: 64.5px;
+    }
+    .ask_question {
+        border-bottom: 1px solid #5e6265;
+    }
     .main_block {
         margin-bottom: 40px;
     }
@@ -40,9 +53,6 @@
         justify-content: space-between;
         flex-wrap: wrap;
     } 
-    .ask_question {
-        margin-right: 10px;
-    }
     .search_input {
         margin-top: 15px;
         order: 3;
@@ -78,7 +88,11 @@
     }
     .search_input input {
         width: 80%;
-        margin-left: 13%;
+    }
+    .search_input {
+        margin-right: 0;
+        width: 90%;
+        margin: 15px auto 0 auto;
     }
 } 
 

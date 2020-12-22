@@ -4,7 +4,12 @@
 }
 
 @font-face {
-    font-family: Roboto-Light Italic;
+    font-family: Roboto Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
     src: url(../fonts/Roboto-LightItalic.ttf);
 }
 
@@ -142,7 +147,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 51px;
+    margin-right: 20px;
 }
 
 
@@ -176,16 +181,21 @@ body {
 
 .ask_question {
     display: flex;
+    height: 64px;
     align-items:center;
     cursor: pointer;
     color: white;
+    padding-right: 30px;
         font-size: 14px;
         color: rgb(255, 255, 255);
         line-height: 1.2;
+        border-left: 1px solid #5e6265;
+        border-right: 1px solid #5e6265;
 }
 
 .ask_question svg {
     margin-right: 15px;
+    padding-left: 30px;
 }
 
 /* Catagory */
@@ -198,7 +208,7 @@ body {
 
 .catagory_name {
         font-size: 14px;
-        font-family: Roboto Bold, sans-serif;
+        font-family: Roboto Regular, sans-serif;
         color: rgb(58, 129, 42);
         line-height: 1.2;
 }
@@ -239,20 +249,21 @@ body {
 .info_title {
     width: 50%;
         font-size: 14px;
-        font-family: Myriad Pro, sans-serif;
+        font-family: Roboto-LightItalic, sans-serif;
         color: rgb(53, 53, 53);
         line-height: 1.2;
         padding: 14px;
 }
 
 .info_description {
+    border-left: 1px solid  #e2f0de ;
     width: 50%;
   font-size: 14px;
   color: rgb(53, 53, 53);
   line-height: 1.2;
   padding: 14px;
 }
-
+  
 .green_bg {
     background: #edf8ea;
     border-bottom: 1px solid #d5e6cf;
